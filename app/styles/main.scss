@@ -1,7 +1,11 @@
 @import "compass_twitter_bootstrap";
 
+body{
+	font-family: 'PT Sans', sans-serif;
+	color:white;
+}
 .section .content{
-	margin: 80px auto 0 auto;
+	margin: 180px auto 0 auto;
 	width:800px;
 
 }
@@ -10,6 +14,20 @@
 	background-image: url(../images/backgrounds/about.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
-	height: 500px;
+	height: 100%;
 	border-top: 1px solid black;
 }
+
+.title{	
+	color: white;
+}
+
+.section .content p{
+	font-size: 24px;
+}
+
+
+.section h2{
+	font-size: 50px;
+}
+
