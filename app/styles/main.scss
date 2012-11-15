@@ -11,19 +11,19 @@ body{
 }
 
 .about{
-	background-image: url(../images/backgrounds/about.jpg);
+	background-image: url(../images/backgrounds/about1.jpg);
 }
 
 .sport{
-	background-image: url(../images/backgrounds/sport.jpg);
+	background-image: url(../images/backgrounds/sport1.jpg);
 }
 
 .art{
-	background-image: url(../images/backgrounds/art.jpg);
+	background-image: url(../images/backgrounds/art1.jpg);
 }
 
 .history{
-	background-image: url(../images/backgrounds/history.jpg);
+	background-image: url(../images/backgrounds/history1.jpg);
 }
 .about, .sport, .history, .art{
 	background-position: 50% 50%;
@@ -32,9 +32,9 @@ body{
 	border-top: 1px solid black;
 }
 
-
-
-
+#slider{
+	position: relative;
+}
 
 .title{	
 	color: white;
