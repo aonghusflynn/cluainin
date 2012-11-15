@@ -1,7 +1,10 @@
 cluainin.Routers.ApplicationRouter = Backbone.Router.extend({
 	routes:{
 		"" : "main",
-		"sport" : "sportView"
+		"sport" 	: "sportView",
+		"art"		: "artView",
+		"history"	: "historyView",
+		"where"		: "whereView", 
 	},
 	initialize:function(){
 		
@@ -11,6 +14,15 @@ cluainin.Routers.ApplicationRouter = Backbone.Router.extend({
 	},
 	sportView: function(){
 		this.sport = new cluainin.Views.sportView();
+	},
+	artView: function(){
+		this.art = new cluainin.Views.artsView();
+	},
+	historyView: function(){
+		this.history = new cluainin.Views.historyView();
+	},
+	whereView: function(){
+		this.sport = new cluainin.Views.whereView();
 	}
 
 });

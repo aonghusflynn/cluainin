@@ -8,7 +8,7 @@ cluainin.Views.manorView = Backbone.View.extend({
 
   render: function(){
     
-    window.onresize=function(){$(".about").css('height', window.innerHeight+'px');};
+    window.onresize=function(){$("#viewport").css('height', window.innerHeight-60+'px');};
     var self = this;
     $(this.el).append("<h2>Why visit?</h2>");
     $(this.el).append("<p>Sports, arts, fishing </p>");

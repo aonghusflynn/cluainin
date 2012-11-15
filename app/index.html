@@ -3,66 +3,76 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <title>Manorhamilton</title>
-        <meta name="description" content=""/>
-        <meta name="viewport" content="width=device-width"/>
-        <link rel="stylesheet" href="styles/main.css"/>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Fredoka+One|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div id="app">
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <h1 class="title">Manorhamilton</h1>
-                </div><!--/.nav-collapse -->
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Manorhamilton</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Fredoka+One|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="app">
+       <div class="navbar navbar-inverse navbar-fixed-top">
+           <div class="navbar-inner">
+               <div class="container">
+                   <h1 class="title">Manorhamilton</h1>
+               </div><!--/.nav-collapse -->
+           </div>
+       </div>
+       <div id="viewport">
+            <div id="slider">
+                <div class="section about">
+                    <div class="content" id="about">
+
+                    </div>   
+                </div>
+                <div class="section sport">
+                    <div class="content" id="sport">
+                    </div>   
+                </div>
+
+                <div class="section art">
+                     <div class="content" id="art">
+                    </div> 
+                </div>
+
+                <div class="section history">
+                     <div class="content" id="history">
+                    </div> 
+                </div>
             </div>
         </div>
-
-        <div class="section about">
-            <div class="content" id="about">
-            
-            </div>   
-        </div>
-        <div class="section sport">
-            <div class="content" id="sport">
-            
-            </div>   
-        </div>
-
-        <div class="section history">
-
-        </div>
-        </div>
+    </div><!-- End app -->
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+            <![endif]-->
 
-        <!-- Add your site or application content here -->
+            <!-- Add your site or application content here -->
 
-        <!-- build:js scripts/scripts.js -->
-        <script src="scripts/vendor/jquery.min.js"></script>
-        <script src="scripts/vendor/lodash.min.js"></script>
-        <script src="scripts/vendor/backbone-min.js"></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/views/application-view.js"></script>
-        <script src="scripts/views/manor-view.js"></script>
-        <script src="scripts/views/sport-view.js"></script>
-        <script src="scripts/models/application-model.js"></script>
-        <script src="scripts/models/content-model.js"></script>
-        <script src="scripts/collections/application-collection.js"></script>
-        <script src="scripts/routes/application-router.js"></script>
-        <!-- endbuild -->
+            <!-- build:js scripts/scripts.js -->
+            <script src="scripts/vendor/jquery.min.js"></script>
+            <script src="scripts/vendor/lodash.min.js"></script>
+            <script src="scripts/vendor/backbone-min.js"></script>
+            <script src="scripts/main.js"></script>
+            <script src="scripts/views/application-view.js"></script>
+            <script src="scripts/views/manor-view.js"></script>
+            <script src="scripts/views/sport-view.js"></script>
+            <script src="scripts/views/arts-view.js"></script>
+            <script src="scripts/views/history-view.js"></script>
+            <script src="scripts/models/application-model.js"></script>
+            <script src="scripts/models/content-model.js"></script>
+            <script src="scripts/collections/application-collection.js"></script>
+            <script src="scripts/routes/application-router.js"></script>
+            <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
+                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+            </script>
+        </body>
+        </html>
