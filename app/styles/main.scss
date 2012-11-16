@@ -5,9 +5,7 @@ body{
 	color:white;
 }
 .section .content{
-	margin: 180px auto 0 auto;
-	width:800px;
-
+	margin: 10% 0 0 20%;
 }
 
 .about{
@@ -41,8 +39,8 @@ body{
 }
 
 .section .content p{
-	font-size: 30px;
-	line-height: 34px;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .section h2{
@@ -58,3 +56,42 @@ body{
 	width:100%;
 }
 
+.nav li a{
+	text-indent: -1000px;
+	height:30px;
+	display: block;
+}
+
+.navbar .nav{
+	margin-top: 10px;
+}
+
+.nav li{
+	margin-left: 8px;
+}
+
+.nav-home{
+	background: url(../images/menu-icons.png) no-repeat 0 -0;
+}
+
+.nav-sport{
+	background: url(../images/menu-icons.png) no-repeat -30px 0;
+}
+
+.nav-art{
+	background: url(../images/menu-icons.png) no-repeat -63px 0;
+}
+
+.nav-history{
+	background: url(../images/menu-icons.png) no-repeat -106px 0;
+}
+
+.nav-where{
+	background: url(../images/menu-icons.png) no-repeat 0 -30px;
+}
+
+.content{
+	background-color: black;
+	width: 400px;
+	padding: 20px;
+}
