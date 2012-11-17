@@ -14,7 +14,9 @@ cluainin.Views.historyView = Backbone.View.extend({
   	},
 
   	render: function(){
-      $('#slider').animate({top: -(window.innerHeight*3+60)},1500);
+      //$('#slider').animate({top: -(window.innerHeight*3+60)},1500);
+      $('#history.content').addClass('move');
+      $('#slider').css('top',-(window.innerHeight*3+60));
     	window.onresize=function(){$("#viewport").css('height', window.innerHeight-60+'px');$(".history").css('height', window.innerHeight+'px');};
     	return this;
   	}

@@ -91,7 +91,14 @@ body{
 }
 
 .content{
+	position: relative;
 	background-color: black;
 	width: 400px;
 	padding: 20px;
+	left: -500px;
+}
+
+.move{
+	-webkit-transition:left 1.5s ease;
+	left:0;
 }
