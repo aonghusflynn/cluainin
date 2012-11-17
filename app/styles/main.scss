@@ -83,11 +83,11 @@ body{
 }
 
 .nav-history{
-	background: url(../images/menu-icons.png) no-repeat -106px 0;
+	background: url(../images/menu-icons.png) no-repeat -144px 0;
 }
 
 .nav-where{
-	background: url(../images/menu-icons.png) no-repeat 0 -30px;
+	background: url(../images/menu-icons.png) no-repeat -106px 0;
 }
 
 .content{
@@ -98,7 +98,16 @@ body{
 	left: -500px;
 }
 
+#where.content{
+	display: none;
+}
+
 .move{
 	-webkit-transition:left 1.5s ease;
 	left:0;
+}
+
+#map{
+	width:100%;
+	height:100%;
 }

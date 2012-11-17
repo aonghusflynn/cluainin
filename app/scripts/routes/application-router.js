@@ -22,7 +22,7 @@ cluainin.Routers.ApplicationRouter = Backbone.Router.extend({
 		this.history = new cluainin.Views.historyView();
 	},
 	whereView: function(){
-		this.sport = new cluainin.Views.whereView();
+		this.where = new cluainin.Views.whereView();
 	}
 
 });

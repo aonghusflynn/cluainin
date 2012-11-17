@@ -16,7 +16,10 @@ cluainin.Views.sportView = Backbone.View.extend({
       //$('#slider').animate({top: -(window.innerHeight+60)},1500);
       
       $('#sport.content').addClass('move');
-      window.onresize=function(){$("#viewport").css('height', window.innerHeight-60+'px');$(".sport").css('height', window.innerHeight+'px');};
+      window.onresize=function(){
+        $("#viewport").css('height', window.innerHeight-60+'px');
+        $(".sport").css('height', window.innerHeight+'px');
+      };
     	return this;
   	}
 });
