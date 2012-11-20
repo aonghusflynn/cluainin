@@ -2,3 +2,5 @@ app/images/00000002
 app/images/backgrounds/npm-debug.log
 dist/
 temp/
+.DS_Store
+app/.DS_Store
