@@ -6,8 +6,8 @@ cluainin.Views.artsView = Backbone.View.extend({
       var self = this;
       $(this.el).empty();
       $(this.el).append("<h2>Art</h2>");
-      $(this.el).append("<p>Sports, arts, fishing </p>");
-      $(this.el).append("<p>Fishing etc</p>");
+      $(this.el).append("<p>With the <a href='http://www.leitrimsculpturecentre.ie/'>Leitrim Sculpture Centre</a> based in the town of Manorhamilton there is a strong Arts vibe to the town.</p>");
+      $(this.el).append("<p>You can view art in the gallery, or if you wish to try your hand, there are workshops you can attend.</p>");
       $(".art").css('height', window.innerHeight+'px');
   		this.render();
   	},
