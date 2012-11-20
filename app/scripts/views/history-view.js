@@ -9,7 +9,7 @@ cluainin.Views.historyView = Backbone.View.extend({
       $(this.el).append("<h2>History</h2>");
       $(this.el).append("<p>Sports, arts, fishing </p>");
       $(this.el).append("<p>Fishing etc</p>");
-      $(".history").css('height', window.innerHeight+'px');
+      $(".section").css('height', window.innerHeight+'px');
   		this.render();
   	},
 

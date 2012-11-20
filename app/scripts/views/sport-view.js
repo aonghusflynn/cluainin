@@ -7,7 +7,7 @@ cluainin.Views.sportView = Backbone.View.extend({
       $(this.el).append("<h2>Sport</h2>");
       $(this.el).append("<p>Sports, arts, fishing </p>");
       $(this.el).append("<p>Fishing etc</p>");
-      $(".sport").css('height', window.innerHeight+'px');
+      $(".section").css('height', window.innerHeight+'px');
       $('#slider').css('top',-(window.innerHeight+60));
   		this.render();
     },
