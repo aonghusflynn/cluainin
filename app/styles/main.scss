@@ -109,7 +109,10 @@ body{
 	margin-top: 55px;
 }
 .move{
-	-webkit-transition:left 1.5s ease;
+  	-moz-transition: left 1.5s ease;
+  	-o-transition: left 1.5s ease;
+  	-webkit-transition:left 1.5s ease;
+	transition: left 1.5s ease;
 	left:0;
 }
 
